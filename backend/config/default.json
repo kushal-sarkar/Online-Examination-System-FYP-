@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "connectionString": "mongodb+srv://kushalsarkar:sarkar123@quickxamcrud.f5ljt5a.mongodb.net/quickxamcrud"
+    },
+    "jwt": {
+        "secret" : "Examination Portal Application"
+    },
+    "mail-credentials" : {
+        "userid" :"kushal.sarkar011@gmail.com",
+        "password" :"S@r123"
+    }
+}
