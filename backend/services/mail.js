@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
 
 let sendmail = (toid,sub,text,html)=>{
     return transporter.sendMail({
-        from: '"sitrain"<sitrain@siemens.com>',
+        from: '"Kushal"<kushal.sarkar011@gmail.com>',
         to: toid,
         subject: sub,
         text: text,
