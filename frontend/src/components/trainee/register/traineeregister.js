@@ -85,7 +85,7 @@ class TraineeRegisterForm extends Component {
     render() {
         const { getFieldDecorator } = this.props.form;
         const prefixSelector = getFieldDecorator('prefix', {
-            initialValue :'+91',
+            initialValue :'+977',
             rules: [{ required: true, message: 'Please enter contact no prefix' }],
         })(
             <Select style={{ width: 70 }}>

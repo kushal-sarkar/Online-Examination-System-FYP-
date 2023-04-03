@@ -2,8 +2,6 @@ import React from 'react';
 import './welcome.css';
 import { Button } from 'antd';
 
-
-
 export default function welcome() {  
   return (
     <div>
