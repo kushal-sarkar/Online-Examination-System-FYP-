@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "bcrypt": "^5.1.0",
     "bcryptjs": "2.4.3",
     "body-parser": "^1.20.1",
+    "build": "^0.1.4",
     "config": "^3.3.9",
     "cors": "^2.8.5",
     "exceljs": "^1.15.0",
